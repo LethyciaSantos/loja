@@ -42,17 +42,16 @@ li {
 
 a {
     text-decoration: none;
-    color: #5FBEAC;
-
+    color: var(--verde-agua-mais-escuro);
 }
 
 .botão-secundario {
-    background-color: #5FBEAC;
-    color: #ffff;
+    background-color: var(--verde-agua-mais-escuro);
+    color: var(--branco-mais-claro);
 }
 
 img {
-    width: 350px;
+    width: 600px;
 }
 
 .corpo {
@@ -62,7 +61,7 @@ img {
     padding: 50px 50px 50px 50px;
 
 
-    background-color: #9F5D38;
+    background-color: var(--marrom-fundo);
     opacity: 82%;
 }
 
@@ -74,13 +73,13 @@ img {
 .esq_titulo {
     font-weight: bold;
     font-size: 65px;
-    color: #5FBEAC;
+    color: var(--verde-agua-mais-escuro);
 }
 
 .esq_p1 {
     font-size: 30px;
     font-weight: 400;
-    color: #98F5E1;
+    color: var(--ciano-medio);
 }
 
 /*
@@ -92,8 +91,8 @@ p{
 }
 */
 .botao-primario {
-    background-color: #5FBEAC;
-    color: rgb(255, 251, 251);
+    background-color:var(--verde-agua-mais-escuro);
+    color:var(--branco-mais-claro);
     font-size: 28px;
     border-radius: 8px;
     text-align: center;
@@ -110,6 +109,14 @@ p{
     justify-content: center;
     align-items: center;
     padding: 40px 0;
+}
+
+#produtos h2{
+    color: var(--verde-agua-mais-escuro);
+}
+
+#produtos h3{
+    color: var(--ciano-medio);
 }
 
 .produtos {
@@ -157,6 +164,13 @@ h3 {
     gap: 50px;
     align-items: center;
     justify-content: center;
+}
+#beneficios h2{
+    color: var(--verde-agua-mais-escuro)
+     
+}
+#beneficios h3{
+    color: var(--ciano-medio)
 }
 
 .beneficios {
@@ -224,7 +238,7 @@ h3 {
 }
 
 footer {
-    background-color: var(--roxo-medio);
+    background-color: var(--branco-mais-claro);
     color: var(--branco);
     padding: 40px 0;
     display: flex;
