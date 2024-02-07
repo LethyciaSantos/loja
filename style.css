@@ -15,14 +15,17 @@
 
 body {
     font-family: 'Playfair Display', serif;
+    
 }
 
 
 .topo {
     display: flex;
     justify-content: space-between;
-
+    background-color: var(--marrom-fundo);
+    opacity: 82%;
     padding: 20px 50px 20px 50px;
+
 }
 
 .icon_menubar {
@@ -109,6 +112,8 @@ p{
     justify-content: center;
     align-items: center;
     padding: 40px 0;
+    background-color: var(--marrom-fundo);
+    opacity: 82%;
 }
 
 #produtos h2{
@@ -128,6 +133,9 @@ p{
 
 .produtos .botao-primario {
     text-align: center;
+} 
+img {
+    width: 280px;
 }
 
 .produto {
@@ -164,14 +172,15 @@ h3 {
     gap: 50px;
     align-items: center;
     justify-content: center;
+    height: auto;
+    background-color: var(--marrom-fundo);
+    opacity: 82%;
 }
 #beneficios h2{
     color: var(--verde-agua-mais-escuro)
-     
+
 }
-#beneficios h3{
-    color: var(--ciano-medio)
-}
+
 
 .beneficios {
     padding: 0 100px;
@@ -190,24 +199,50 @@ h3 {
     width: 100%;
 }
 
+#beneficios p {
+    color: var(--ciano-medio);
+    font-size: 20px;
+}
+
 .beneficio {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
+#beneficios h3 {
+    color: var(--ciano-medio)
+
+}
+
+
 .beneficio h4 {
     font-size: 20px;
 }
 
-.beneficio p {
-    text-align: center;
-    font-size: 16px;
-}
+
 
 #beneficios .botao-primario {
     padding: 10px 50px;
+    width: 200px;
 }
+
+#sobre-nos {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;  background-color: var(--marrom-fundo);
+    opacity: 82%;}
+
+#sobre-nos h2 {
+    color: var(--verde-agua-mais-escuro)
+}
+
+#sobre-nos p {
+    color: var(--ciano-medio);
+    font-size: 20px;
+}
+
 
 #sobre-nos {
     padding: 40px 0;
@@ -238,11 +273,13 @@ h3 {
 }
 
 footer {
-    background-color: var(--branco-mais-claro);
+    justify-content: start;  background-color: var(--marrom-fundo);
+    opacity: 82%;
     color: var(--branco);
     padding: 40px 0;
     display: flex;
     justify-content: space-around;
+    
 }
 
 footer img {
@@ -257,13 +294,16 @@ footer ul {
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 12px;
+    gap: 12px; 
+    color: var(--verde-agua-mais-escuro)
 }
 
 footer h5 {
     font-size: 16px;
     padding-bottom: 16px;
+    color: var(--verde-agua-mais-escuro)
 }
+
 
 footer li {
     font-size: 14px;
