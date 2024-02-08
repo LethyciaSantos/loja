@@ -9,17 +9,26 @@
 </head>
 <body>
     <section class="topo">
-        <img class="icon_menubar" src="img/icon.png" alt="imagem de um cristal">
-       <section class="menubar">
-       <ul>
-           <a href="#"><li>Pagina Inicial</li></a>
-           <a href="https://canaltech.com.br/empresa/instagram/"><li>Produtos</li></a>
-           <a href="https://github.com/LethyciaSantos"><li>Benefícios</li></a>
-           <a href="https://github.com/LethyciaSantos"><li>Sobre nós</li></a>
-           <a class= "botão-secundario" href="https://canaltech.com.br/redes-sociais/como-usar-o-instagram/"><li>Comprar agora!</li></a>
-       </ul>
-       </section> 
-    </section>
+        <a href="index.html"><img class="icon_menubar" src="img/icon.png" alt="" /></a>
+        <nav class="menu-lateral">
+          <ion-icon
+                class="botao-menu-close"
+                name="close-outline"
+                onclick="toggleMenu()"></ion-icon>
+          <ul>
+              <a href="index.html"><li>Página inicial</li></a>
+            <a href="#produtos"><li>Produtos</li></a>
+            <a href="#beneficios"><li>Benefícios</li></a>
+            <a href="#sobre-nos"><li>Sobre nós</li></a>
+            <a class="botão-secundario" href="">Comprar agora!</a>
+          </ul>
+        </nav>
+        <ion-icon
+          class="botao-menu"
+          name="menu-outline"
+          onclick="toggleMenu()"
+        ></ion-icon>
+      </section>
 
     <section class="corpo">
         <section class="esquerda"> 
@@ -58,21 +67,20 @@
     
     <section id="sobre-nos">
         <section class="esquerda">
-            <img src="images/sobre-nos.png" alt="">
+            <img src="img/imagem_sobre.png" alt="">
         </section>
-        <section class="direita">
+        <section class="direita"> 
             <h2>Sobre nós</h2>
-            <p>Apresento a você um elegante anel de prata, uma peça versátil que combina estilo e durabilidade. Confeccionado em prata de lei, esse anel oferece brilho atemporal, além de ser resistente à corrosão.
-                <br><br>
-                Seus benefícios incluem a capacidade de complementar diversos looks, sendo uma escolha clássica e sofisticada. Além disso, a prata é conhecida por ser hipoalergênica, tornando o anel uma opção segura e acessível para quem tem sensibilidade a outros metais.
-                <br><br>Adquira esse acessório refinado para expressar seu estilo com elegância.
+            <p>Apresento a você um elegante anel de prata, uma peça versátil que combina estilo e durabilidade. Confeccionado em prata de lei, esse anel oferece brilho atemporal, além de ser resistente à corrosão.<br>
+            Seus benefícios incluem a capacidade de complementar diversos looks, sendo uma escolha clássica e sofisticada. Além disso, a prata é conhecida por ser hipoalergênica, tornando o anel uma opção segura e acessível para quem tem sensibilidade a outros metais.
+            <br>Adquira esse acessório refinado para expressar seu estilo com elegância.
             <a class="botao-primario" href="">Comprar agora!</a>
             </section>
     </section>
 
     <footer>
         <section class="marca">
-            <img src="images/logo.svg" alt="">
+            <img src="img/icon.png" alt="">
         </section>
         <section class="informacoes">
             <h5>Informações</h5>
@@ -105,5 +113,6 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
